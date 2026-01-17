@@ -142,6 +142,57 @@ Skills 是由指令、脚本和资源组成的文件夹，AI 代理可以动态�
 
 ---
 
+## 🔧 IDE/Agent Skills 路径配置
+
+在所有主流 AI 编程代理中使用此合集！克隆到 `~/.agents/skills/` 并软链接到你喜欢的 IDE：
+
+```bash
+# 克隆合集
+git clone https://github.com/ZhanlinCui/Agent-Skills-Library.git ~/.agents/skills
+```
+
+### 支持的 IDE 及配置路径
+
+| IDE 名称 | 默认 Skill 路径 | 一键软链接命令 |
+|----------|----------------|---------------|
+| **iFlow** | 全局: `~/.iflow/skills/`<br>项目: `.iflow/skills/` | `mkdir -p ~/.iflow && ln -s ~/.agents/skills ~/.iflow/skills` |
+| **Claude Code** | 全局: `~/.claude/skills/`<br>项目: `.claude/skills/` | `mkdir -p ~/.claude && ln -s ~/.agents/skills ~/.claude/skills` |
+| **GitHub Copilot** | 全局: `~/.copilot/skills/`<br>项目: `.github/skills/` | `mkdir -p ~/.copilot && ln -s ~/.agents/skills ~/.copilot/skills` |
+| **Google Antigravity** | 全局: `~/.gemini/antigravity/skills/`<br>项目: `.agent/skills/` | `mkdir -p ~/.gemini/antigravity && ln -s ~/.agents/skills ~/.gemini/antigravity/skills` |
+| **Cursor** | 全局: `~/.cursor/skills/`<br>项目: `.cursor/skills/` | `mkdir -p ~/.cursor && ln -s ~/.agents/skills ~/.cursor/skills` |
+| **OpenCode** | 全局: `~/.config/opencode/skill/`<br>项目: `.opencode/skill/` | `mkdir -p ~/.config/opencode && ln -s ~/.agents/skills ~/.config/opencode/skill` |
+| **OpenAI Codex** | 全局: `~/.codex/skills/`<br>项目: `.codex/skills/` | `mkdir -p ~/.codex && ln -s ~/.agents/skills ~/.codex/skills` |
+| **Gemini CLI** | 全局: `~/.gemini/skills/`<br>项目: `.gemini/skills/` | `mkdir -p ~/.gemini && ln -s ~/.agents/skills ~/.gemini/skills` |
+| **Windsurf** | 全局: `~/.codeium/windsurf/skills/`<br>项目: `.windsurf/skills/` | `mkdir -p ~/.codeium/windsurf && ln -s ~/.agents/skills ~/.codeium/windsurf/skills` |
+| **Amp** | 全局: `~/.config/agents/skills/`<br>项目: `.agents/skills/` | `mkdir -p ~/.config/agents && ln -s ~/.agents/skills ~/.config/agents/skills` |
+
+### 一键配置脚本
+
+运行此脚本一次性配置所有 IDE：
+
+```bash
+# 克隆 skills 合集
+git clone https://github.com/ZhanlinCui/Agent-Skills-Library.git ~/.agents/skills
+
+# 为所有支持的 IDE 创建软链接
+mkdir -p ~/.iflow ~/.claude ~/.copilot ~/.cursor ~/.codex ~/.gemini ~/.gemini/antigravity ~/.codeium/windsurf ~/.config/opencode ~/.config/agents
+
+ln -sf ~/.agents/skills ~/.iflow/skills
+ln -sf ~/.agents/skills ~/.claude/skills
+ln -sf ~/.agents/skills ~/.copilot/skills
+ln -sf ~/.agents/skills ~/.cursor/skills
+ln -sf ~/.agents/skills ~/.codex/skills
+ln -sf ~/.agents/skills ~/.gemini/skills
+ln -sf ~/.agents/skills ~/.gemini/antigravity/skills
+ln -sf ~/.agents/skills ~/.codeium/windsurf/skills
+ln -sf ~/.agents/skills ~/.config/opencode/skill
+ln -sf ~/.agents/skills ~/.config/agents/skills
+
+echo "✅ 所有 IDE 的 Skills 已配置完成！"
+```
+
+---
+
 ## 📁 Skill 结构
 
 每个 skill 遵循此标准结构：

@@ -142,6 +142,57 @@ Use skills via the Claude API following the [Skills API Quickstart](https://docs
 
 ---
 
+## 🔧 IDE/Agent Skills Path Configuration
+
+Use this collection across all major AI coding agents! Clone to `~/.agents/skills/` and symlink to your preferred IDE:
+
+```bash
+# Clone the collection
+git clone https://github.com/ZhanlinCui/Agent-Skills-Library.git ~/.agents/skills
+```
+
+### Supported IDEs & Configuration Paths
+
+| IDE Name | Default Skill Path | One-Click Symlink Command |
+|----------|-------------------|---------------------------|
+| **iFlow** | Global: `~/.iflow/skills/`<br>Project: `.iflow/skills/` | `mkdir -p ~/.iflow && ln -s ~/.agents/skills ~/.iflow/skills` |
+| **Claude Code** | Global: `~/.claude/skills/`<br>Project: `.claude/skills/` | `mkdir -p ~/.claude && ln -s ~/.agents/skills ~/.claude/skills` |
+| **GitHub Copilot** | Global: `~/.copilot/skills/`<br>Project: `.github/skills/` | `mkdir -p ~/.copilot && ln -s ~/.agents/skills ~/.copilot/skills` |
+| **Google Antigravity** | Global: `~/.gemini/antigravity/skills/`<br>Project: `.agent/skills/` | `mkdir -p ~/.gemini/antigravity && ln -s ~/.agents/skills ~/.gemini/antigravity/skills` |
+| **Cursor** | Global: `~/.cursor/skills/`<br>Project: `.cursor/skills/` | `mkdir -p ~/.cursor && ln -s ~/.agents/skills ~/.cursor/skills` |
+| **OpenCode** | Global: `~/.config/opencode/skill/`<br>Project: `.opencode/skill/` | `mkdir -p ~/.config/opencode && ln -s ~/.agents/skills ~/.config/opencode/skill` |
+| **OpenAI Codex** | Global: `~/.codex/skills/`<br>Project: `.codex/skills/` | `mkdir -p ~/.codex && ln -s ~/.agents/skills ~/.codex/skills` |
+| **Gemini CLI** | Global: `~/.gemini/skills/`<br>Project: `.gemini/skills/` | `mkdir -p ~/.gemini && ln -s ~/.agents/skills ~/.gemini/skills` |
+| **Windsurf** | Global: `~/.codeium/windsurf/skills/`<br>Project: `.windsurf/skills/` | `mkdir -p ~/.codeium/windsurf && ln -s ~/.agents/skills ~/.codeium/windsurf/skills` |
+| **Amp** | Global: `~/.config/agents/skills/`<br>Project: `.agents/skills/` | `mkdir -p ~/.config/agents && ln -s ~/.agents/skills ~/.config/agents/skills` |
+
+### Quick Setup Script
+
+Run this to set up all IDEs at once:
+
+```bash
+# Clone skills collection
+git clone https://github.com/ZhanlinCui/Agent-Skills-Library.git ~/.agents/skills
+
+# Create symlinks for all supported IDEs
+mkdir -p ~/.iflow ~/.claude ~/.copilot ~/.cursor ~/.codex ~/.gemini ~/.gemini/antigravity ~/.codeium/windsurf ~/.config/opencode ~/.config/agents
+
+ln -sf ~/.agents/skills ~/.iflow/skills
+ln -sf ~/.agents/skills ~/.claude/skills
+ln -sf ~/.agents/skills ~/.copilot/skills
+ln -sf ~/.agents/skills ~/.cursor/skills
+ln -sf ~/.agents/skills ~/.codex/skills
+ln -sf ~/.agents/skills ~/.gemini/skills
+ln -sf ~/.agents/skills ~/.gemini/antigravity/skills
+ln -sf ~/.agents/skills ~/.codeium/windsurf/skills
+ln -sf ~/.agents/skills ~/.config/opencode/skill
+ln -sf ~/.agents/skills ~/.config/agents/skills
+
+echo "✅ Skills configured for all IDEs!"
+```
+
+---
+
 ## 📁 Skill Structure
 
 Each skill follows this standard structure:

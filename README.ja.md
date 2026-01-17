@@ -142,6 +142,57 @@ Skills は、AI エージェントが動的に読み込んで特定のタスク�
 
 ---
 
+## 🔧 IDE/Agent Skills パス設定
+
+このコレクションをすべての主要な AI コーディングエージェントで使用できます！`~/.agents/skills/` にクローンし、お好みの IDE にシンボリックリンクを作成：
+
+```bash
+# コレクションをクローン
+git clone https://github.com/ZhanlinCui/Agent-Skills-Library.git ~/.agents/skills
+```
+
+### 対応 IDE と設定パス
+
+| IDE 名 | デフォルト Skill パス | ワンクリックシンボリックリンクコマンド |
+|--------|---------------------|-------------------------------------|
+| **iFlow** | グローバル: `~/.iflow/skills/`<br>プロジェクト: `.iflow/skills/` | `mkdir -p ~/.iflow && ln -s ~/.agents/skills ~/.iflow/skills` |
+| **Claude Code** | グローバル: `~/.claude/skills/`<br>プロジェクト: `.claude/skills/` | `mkdir -p ~/.claude && ln -s ~/.agents/skills ~/.claude/skills` |
+| **GitHub Copilot** | グローバル: `~/.copilot/skills/`<br>プロジェクト: `.github/skills/` | `mkdir -p ~/.copilot && ln -s ~/.agents/skills ~/.copilot/skills` |
+| **Google Antigravity** | グローバル: `~/.gemini/antigravity/skills/`<br>プロジェクト: `.agent/skills/` | `mkdir -p ~/.gemini/antigravity && ln -s ~/.agents/skills ~/.gemini/antigravity/skills` |
+| **Cursor** | グローバル: `~/.cursor/skills/`<br>プロジェクト: `.cursor/skills/` | `mkdir -p ~/.cursor && ln -s ~/.agents/skills ~/.cursor/skills` |
+| **OpenCode** | グローバル: `~/.config/opencode/skill/`<br>プロジェクト: `.opencode/skill/` | `mkdir -p ~/.config/opencode && ln -s ~/.agents/skills ~/.config/opencode/skill` |
+| **OpenAI Codex** | グローバル: `~/.codex/skills/`<br>プロジェクト: `.codex/skills/` | `mkdir -p ~/.codex && ln -s ~/.agents/skills ~/.codex/skills` |
+| **Gemini CLI** | グローバル: `~/.gemini/skills/`<br>プロジェクト: `.gemini/skills/` | `mkdir -p ~/.gemini && ln -s ~/.agents/skills ~/.gemini/skills` |
+| **Windsurf** | グローバル: `~/.codeium/windsurf/skills/`<br>プロジェクト: `.windsurf/skills/` | `mkdir -p ~/.codeium/windsurf && ln -s ~/.agents/skills ~/.codeium/windsurf/skills` |
+| **Amp** | グローバル: `~/.config/agents/skills/`<br>プロジェクト: `.agents/skills/` | `mkdir -p ~/.config/agents && ln -s ~/.agents/skills ~/.config/agents/skills` |
+
+### クイックセットアップスクリプト
+
+このスクリプトを実行してすべての IDE を一度に設定：
+
+```bash
+# Skills コレクションをクローン
+git clone https://github.com/ZhanlinCui/Agent-Skills-Library.git ~/.agents/skills
+
+# すべての対応 IDE にシンボリックリンクを作成
+mkdir -p ~/.iflow ~/.claude ~/.copilot ~/.cursor ~/.codex ~/.gemini ~/.gemini/antigravity ~/.codeium/windsurf ~/.config/opencode ~/.config/agents
+
+ln -sf ~/.agents/skills ~/.iflow/skills
+ln -sf ~/.agents/skills ~/.claude/skills
+ln -sf ~/.agents/skills ~/.copilot/skills
+ln -sf ~/.agents/skills ~/.cursor/skills
+ln -sf ~/.agents/skills ~/.codex/skills
+ln -sf ~/.agents/skills ~/.gemini/skills
+ln -sf ~/.agents/skills ~/.gemini/antigravity/skills
+ln -sf ~/.agents/skills ~/.codeium/windsurf/skills
+ln -sf ~/.agents/skills ~/.config/opencode/skill
+ln -sf ~/.agents/skills ~/.config/agents/skills
+
+echo "✅ すべての IDE の Skills 設定が完了しました！"
+```
+
+---
+
 ## 📁 Skill 構造
 
 各 skill はこの標準構造に従います：
