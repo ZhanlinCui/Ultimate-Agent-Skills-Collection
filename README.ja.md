@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Skills数-40+-blueviolet?style=for-the-badge" alt="Skills Count" />
+<img src="https://img.shields.io/badge/Skills数-46+-blueviolet?style=for-the-badge" alt="Skills Count" />
 <img src="https://img.shields.io/badge/品質-プレミアム-gold?style=for-the-badge" alt="Quality" />
 <img src="https://img.shields.io/badge/Claude%20AI-対応-00A67E?style=for-the-badge" alt="Claude Compatible" />
 
@@ -22,7 +22,7 @@ Skills は、AI エージェントが動的に読み込んで特定のタスク�
 
 これはインターネット上で **最も包括的に厳選された高品質** Agent Skills コレクションです：
 
-- ✅ **40以上のプレミアム Skills** - クリエイティブ、技術、エンタープライズワークフローをカバー
+- ✅ **46以上のプレミアム Skills** - クリエイティブ、技術、エンタープライズワークフローをカバー
 - ✅ **本番環境対応** - これらの Skills は実際のアプリケーションを動かしています
 - ✅ **充実したドキュメント** - 各 Skill には詳細な説明と例が含まれています
 - ✅ **カテゴリ別に整理** - 必要なものを簡単に見つけられます
@@ -41,6 +41,7 @@ Skills は、AI エージェントが動的に読み込んで特定のタスク�
 | **[brand-guidelines](./brand-guidelines/)** | 公式ブランドカラーとタイポグラフィをアーティファクトに適用 |
 | **[theme-factory](./theme-factory/)** | 10以上のプリセットテーマまたはカスタムテーマをオンザフライで生成してアーティファクトをスタイリング |
 | **[slack-gif-creator](./slack-gif-creator/)** | Slack 用に最適化されたアニメーション GIF を作成 |
+| **[ui-ux-pro-max](./ui-ux-pro-max/)** | **究極の UI/UX デザインインテリジェンス**：50以上のスタイル、97カラーパレット、57フォントペアリング、99 UXガイドライン。10の技術スタック対応（React、Vue、Next.js、Flutter、SwiftUI等）、CLIツール付き |
 
 ### 📄 ドキュメントスキル
 
@@ -53,6 +54,16 @@ Skills は、AI エージェントが動的に読み込んで特定のタスク�
 | **[doc-coauthoring](./doc-coauthoring/)** | ドキュメントと提案書の共同執筆のための構造化されたワークフロー |
 | **[internal-comms](./internal-comms/)** | 社内コミュニケーションの作成：ステータスレポート、ニュースレター、FAQ、インシデントレポート |
 | **[github-release-assistant](./github-release-assistant/)** | バイリンガル GitHub リリースドキュメントの生成（英語 + 中国語） |
+
+### 📝 Obsidian ナレッジ管理
+
+| Skill | 説明 |
+|-------|------|
+| **[obsidian-helper](./obsidian-helper/)** | スマートノートアシスタント：`/daily`（日記）、`/capture`（クイックノート）、`/review`（週/月レビュー）。Obsidian MCP深度統合 |
+| **[obsidian-bases](./obsidian-bases/)** | Obsidian Bases（.baseファイル）の作成：ビュー、フィルター、数式、サマリー。table/cards/list/mapビュー対応 |
+| **[obsidian-markdown](./obsidian-markdown/)** | 完全なObsidian Markdownガイド：wikilinks、埋め込み、コールアウト、プロパティ、Mermaidダイアグラム、LaTeX数式 |
+| **[project-to-obsidian](./project-to-obsidian/)** | コードプロジェクトをObsidianナレッジベースに変換。`/p2o`コマンドでAPIドキュメント、アーキテクチャ、モジュール説明を自動生成 |
+| **[json-canvas](./json-canvas/)** | Obsidian Canvasファイル（.canvas）の作成：ノード、エッジ、グループ、フローチャート、マインドマップ |
 
 ### 🛠️ 開発＆技術
 
@@ -225,8 +236,9 @@ description: この skill をいつ使用するか、何をするか
 
 | カテゴリ | 数 | 例 |
 |----------|-----|------|
-| 🎨 クリエイティブ＆デザイン | 6 | algorithmic-art, frontend-design, theme-factory |
+| 🎨 クリエイティブ＆デザイン | 7 | algorithmic-art, frontend-design, ui-ux-pro-max |
 | 📄 ドキュメントスキル | 7 | docx, pdf, pptx, xlsx |
+| 📝 Obsidian ナレッジ | 5 | obsidian-helper, obsidian-bases, project-to-obsidian |
 | 🛠️ 開発＆技術 | 6 | mcp-builder, webapp-testing, skill-creator |
 | 🔍 SEO ＆ パフォーマンス | 2 | google-official-seo-guide, web-performance-seo |
 | 🧠 プランニング＆ワークフロー | 5 | planning-with-files, chat-compactor |

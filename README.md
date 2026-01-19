@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Skills-40+-blueviolet?style=for-the-badge" alt="Skills Count" />
+<img src="https://img.shields.io/badge/Skills-46+-blueviolet?style=for-the-badge" alt="Skills Count" />
 <img src="https://img.shields.io/badge/Quality-Premium-gold?style=for-the-badge" alt="Quality" />
 <img src="https://img.shields.io/badge/Claude%20AI-Compatible-00A67E?style=for-the-badge" alt="Claude Compatible" />
 
@@ -22,7 +22,7 @@ Skills are folders of instructions, scripts, and resources that AI agents load d
 
 This is the **most comprehensive curated collection** of high-quality agent skills gathered from across the internet, including:
 
-- ✅ **40+ Premium Skills** covering creative, technical, and enterprise workflows
+- ✅ **46+ Premium Skills** covering creative, technical, and enterprise workflows
 - ✅ **Production-Ready** - These skills power real applications
 - ✅ **Well-Documented** - Each skill includes detailed instructions and examples
 - ✅ **Organized by Category** - Easy to find what you need
@@ -41,6 +41,7 @@ This is the **most comprehensive curated collection** of high-quality agent skil
 | **[brand-guidelines](./brand-guidelines/)** | Apply official brand colors and typography to artifacts |
 | **[theme-factory](./theme-factory/)** | Style artifacts with 10+ pre-set themes or generate custom themes on-the-fly |
 | **[slack-gif-creator](./slack-gif-creator/)** | Create animated GIFs optimized for Slack with proper constraints |
+| **[ui-ux-pro-max](./ui-ux-pro-max/)** | **Ultimate UI/UX design intelligence**: 50+ styles, 97 color palettes, 57 font pairings, 99 UX guidelines. Supports 10 tech stacks (React, Vue, Next.js, Flutter, SwiftUI, etc.) with CLI search tool |
 
 ### 📄 Document Skills
 
@@ -53,6 +54,16 @@ This is the **most comprehensive curated collection** of high-quality agent skil
 | **[doc-coauthoring](./doc-coauthoring/)** | Structured workflow for co-authoring documentation and proposals |
 | **[internal-comms](./internal-comms/)** | Write internal communications: status reports, newsletters, FAQs, incident reports |
 | **[github-release-assistant](./github-release-assistant/)** | Generate bilingual GitHub release documentation (English + Chinese) |
+
+### 📝 Obsidian Knowledge Management
+
+| Skill | Description |
+|-------|-------------|
+| **[obsidian-helper](./obsidian-helper/)** | Smart note assistant with `/daily` (journal), `/capture` (quick notes), `/review` (weekly/monthly reviews). Deep MCP integration |
+| **[obsidian-bases](./obsidian-bases/)** | Create Obsidian Bases (.base files) with views, filters, formulas, and summaries. Supports table/cards/list/map views |
+| **[obsidian-markdown](./obsidian-markdown/)** | Complete Obsidian Flavored Markdown guide: wikilinks, embeds, callouts, properties, Mermaid diagrams, LaTeX math |
+| **[project-to-obsidian](./project-to-obsidian/)** | Convert code projects to Obsidian knowledge bases. Auto-generate API docs, architecture, module docs with `/p2o` command |
+| **[json-canvas](./json-canvas/)** | Create JSON Canvas files (.canvas) for Obsidian: nodes, edges, groups, flowcharts, mind maps |
 
 ### 🛠️ Development & Technical
 
@@ -225,8 +236,9 @@ description: When to use this skill and what it does
 
 | Category | Count | Examples |
 |----------|-------|----------|
-| 🎨 Creative & Design | 6 | algorithmic-art, frontend-design, theme-factory |
+| 🎨 Creative & Design | 7 | algorithmic-art, frontend-design, ui-ux-pro-max |
 | 📄 Document Skills | 7 | docx, pdf, pptx, xlsx |
+| 📝 Obsidian Knowledge | 5 | obsidian-helper, obsidian-bases, project-to-obsidian |
 | 🛠️ Development | 6 | mcp-builder, webapp-testing, skill-creator |
 | 🔍 SEO & Performance | 2 | google-official-seo-guide, web-performance-seo |
 | 🧠 Planning & Workflow | 5 | planning-with-files, chat-compactor |

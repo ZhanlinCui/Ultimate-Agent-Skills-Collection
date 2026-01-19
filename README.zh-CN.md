@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Skills数量-40+-blueviolet?style=for-the-badge" alt="Skills Count" />
+<img src="https://img.shields.io/badge/Skills数量-46+-blueviolet?style=for-the-badge" alt="Skills Count" />
 <img src="https://img.shields.io/badge/质量-精选高质量-gold?style=for-the-badge" alt="Quality" />
 <img src="https://img.shields.io/badge/Claude%20AI-完美兼容-00A67E?style=for-the-badge" alt="Claude Compatible" />
 
@@ -22,7 +22,7 @@ Skills 是由指令、脚本和资源组成的文件夹，AI 代理可以动态�
 
 这是 **全网最全的精选高质量** Agent Skills 合集，包括：
 
-- ✅ **40+ 精选 Skills** 覆盖创意、技术和企业工作流
+- ✅ **46+ 精选 Skills** 覆盖创意、技术和企业工作流
 - ✅ **生产级就绪** - 这些 Skills 驱动着真实的应用程序
 - ✅ **文档完善** - 每个 Skill 都包含详细的说明和示例
 - ✅ **分类整理** - 轻松找到你需要的工具
@@ -41,6 +41,7 @@ Skills 是由指令、脚本和资源组成的文件夹，AI 代理可以动态�
 | **[brand-guidelines](./brand-guidelines/)** | 将官方品牌色彩和排版应用到各种产物中 |
 | **[theme-factory](./theme-factory/)** | 使用 10+ 预设主题或即时生成自定义主题来样式化产物 |
 | **[slack-gif-creator](./slack-gif-creator/)** | 创建针对 Slack 优化的动画 GIF |
+| **[ui-ux-pro-max](./ui-ux-pro-max/)** | **终极 UI/UX 设计智能**：50+ 设计风格、97 配色方案、57 字体配对、99 条 UX 指南。支持 10 种技术栈（React、Vue、Next.js、Flutter、SwiftUI 等），带 CLI 搜索工具 |
 
 ### 📄 文档技能
 
@@ -53,6 +54,16 @@ Skills 是由指令、脚本和资源组成的文件夹，AI 代理可以动态�
 | **[doc-coauthoring](./doc-coauthoring/)** | 协作撰写文档和提案的结构化工作流 |
 | **[internal-comms](./internal-comms/)** | 撰写内部沟通：状态报告、通讯、FAQ、事故报告 |
 | **[github-release-assistant](./github-release-assistant/)** | 生成双语 GitHub 发布文档（英文 + 中文） |
+
+### 📝 Obsidian 知识库管理
+
+| Skill | 描述 |
+|-------|------|
+| **[obsidian-helper](./obsidian-helper/)** | 智能笔记助手：`/daily`（日记）、`/capture`（快速捕获）、`/review`（周/月回顾）。深度整合 Obsidian MCP |
+| **[obsidian-bases](./obsidian-bases/)** | 创建 Obsidian Bases（.base 文件）：视图、过滤器、公式、摘要。支持 table/cards/list/map 视图 |
+| **[obsidian-markdown](./obsidian-markdown/)** | 完整的 Obsidian Markdown 语法指南：wikilinks、嵌入、callouts、properties、Mermaid 图表、LaTeX 数学公式 |
+| **[project-to-obsidian](./project-to-obsidian/)** | 将代码项目转换为 Obsidian 知识库。使用 `/p2o` 命令自动生成 API 文档、架构说明、模块文档 |
+| **[json-canvas](./json-canvas/)** | 创建 Obsidian Canvas 文件（.canvas）：节点、边、分组、流程图、思维导图 |
 
 ### 🛠️ 开发与技术
 
@@ -225,8 +236,9 @@ description: 何时使用此 skill 以及它做什么
 
 | 分类 | 数量 | 示例 |
 |------|------|------|
-| 🎨 创意与设计 | 6 | algorithmic-art, frontend-design, theme-factory |
+| 🎨 创意与设计 | 7 | algorithmic-art, frontend-design, ui-ux-pro-max |
 | 📄 文档技能 | 7 | docx, pdf, pptx, xlsx |
+| 📝 Obsidian 知识库 | 5 | obsidian-helper, obsidian-bases, project-to-obsidian |
 | 🛠️ 开发技术 | 6 | mcp-builder, webapp-testing, skill-creator |
 | 🔍 SEO 与性能 | 2 | google-official-seo-guide, web-performance-seo |
 | 🧠 规划与工作流 | 5 | planning-with-files, chat-compactor |
