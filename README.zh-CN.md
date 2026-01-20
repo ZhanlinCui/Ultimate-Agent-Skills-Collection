@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Skills数量-46+-blueviolet?style=for-the-badge" alt="Skills Count" />
+<img src="https://img.shields.io/badge/Skills数量-49+-blueviolet?style=for-the-badge" alt="Skills Count" />
 <img src="https://img.shields.io/badge/质量-精选高质量-gold?style=for-the-badge" alt="Quality" />
 <img src="https://img.shields.io/badge/Claude%20AI-完美兼容-00A67E?style=for-the-badge" alt="Claude Compatible" />
 
@@ -22,7 +22,7 @@ Skills 是由指令、脚本和资源组成的文件夹，AI 代理可以动态�
 
 这是 **全网最全的精选高质量** Agent Skills 合集，包括：
 
-- ✅ **46+ 精选 Skills** 覆盖创意、技术和企业工作流
+- ✅ **49+ 精选 Skills** 覆盖创意、技术和企业工作流
 - ✅ **生产级就绪** - 这些 Skills 驱动着真实的应用程序
 - ✅ **文档完善** - 每个 Skill 都包含详细的说明和示例
 - ✅ **分类整理** - 轻松找到你需要的工具
@@ -126,6 +126,14 @@ Skills 是由指令、脚本和资源组成的文件夹，AI 代理可以动态�
 | **[notebooklm](./notebooklm/)** | 通过浏览器自动化查询 Google NotebookLM 获取源引用答案 |
 | **[x-article-publisher](./x-article-publisher/)** | 将 Markdown 文章发布到 X (Twitter) Articles，正确格式化 |
 | **[doc-sync-tool](./doc-sync-tool/)** | 自动同步项目中的 Agents.md、claude.md、gemini.md 文件 |
+
+### 🔺 Vercel 官方
+
+| Skill | 描述 |
+|-------|------|
+| **[vercel-deploy](./vercel-deploy/)** | 一键部署任何项目到 Vercel。无需认证 - 返回预览 URL 和可认领的部署链接 |
+| **[vercel-react-best-practices](./vercel-react-best-practices/)** | 来自 Vercel 工程团队的 **45 条 React/Next.js 性能优化规则**。涵盖瀑布流、包体积、服务端、重渲染优化 |
+| **[vercel-web-design-guidelines](./vercel-web-design-guidelines/)** | 审查 UI 代码是否符合 Web 界面指南。可访问性、UX 审计、设计最佳实践 |
 
 ---
 
@@ -246,6 +254,7 @@ description: 何时使用此 skill 以及它做什么
 | 🤖 代理编排 | 4 | dispatching-parallel-agents, subagent-driven-development |
 | 🔧 Git 与工作流 | 2 | using-git-worktrees, finishing-a-development-branch |
 | 🔗 集成自动化 | 3 | notebooklm, x-article-publisher |
+| 🔺 Vercel 官方 | 3 | vercel-deploy, vercel-react-best-practices |
 
 ---
 

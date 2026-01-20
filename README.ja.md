@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Skills数-46+-blueviolet?style=for-the-badge" alt="Skills Count" />
+<img src="https://img.shields.io/badge/Skills数-49+-blueviolet?style=for-the-badge" alt="Skills Count" />
 <img src="https://img.shields.io/badge/品質-プレミアム-gold?style=for-the-badge" alt="Quality" />
 <img src="https://img.shields.io/badge/Claude%20AI-対応-00A67E?style=for-the-badge" alt="Claude Compatible" />
 
@@ -22,7 +22,7 @@ Skills は、AI エージェントが動的に読み込んで特定のタスク�
 
 これはインターネット上で **最も包括的に厳選された高品質** Agent Skills コレクションです：
 
-- ✅ **46以上のプレミアム Skills** - クリエイティブ、技術、エンタープライズワークフローをカバー
+- ✅ **49以上のプレミアム Skills** - クリエイティブ、技術、エンタープライズワークフローをカバー
 - ✅ **本番環境対応** - これらの Skills は実際のアプリケーションを動かしています
 - ✅ **充実したドキュメント** - 各 Skill には詳細な説明と例が含まれています
 - ✅ **カテゴリ別に整理** - 必要なものを簡単に見つけられます
@@ -126,6 +126,14 @@ Skills は、AI エージェントが動的に読み込んで特定のタスク�
 | **[notebooklm](./notebooklm/)** | ブラウザ自動化で Google NotebookLM にクエリしてソース根拠のある回答を取得 |
 | **[x-article-publisher](./x-article-publisher/)** | Markdown 記事を適切な書式で X (Twitter) Articles に公開 |
 | **[doc-sync-tool](./doc-sync-tool/)** | プロジェクト間で Agents.md、claude.md、gemini.md ファイルを自動同期 |
+
+### 🔺 Vercel 公式
+
+| Skill | 説明 |
+|-------|------|
+| **[vercel-deploy](./vercel-deploy/)** | 任意のプロジェクトを即座に Vercel にデプロイ。認証不要 - プレビュー URL とクレーム可能なデプロイリンクを返す |
+| **[vercel-react-best-practices](./vercel-react-best-practices/)** | Vercel エンジニアリングチームによる **45の React/Next.js パフォーマンス最適化ルール**。ウォーターフォール、バンドルサイズ、サーバーサイド、再レンダリングをカバー |
+| **[vercel-web-design-guidelines](./vercel-web-design-guidelines/)** | UI コードの Web インターフェースガイドライン準拠をレビュー。アクセシビリティ、UX 監査、デザインベストプラクティス |
 
 ---
 
@@ -246,6 +254,7 @@ description: この skill をいつ使用するか、何をするか
 | 🤖 エージェントオーケストレーション | 4 | dispatching-parallel-agents, subagent-driven-development |
 | 🔧 Git ＆ ワークフロー | 2 | using-git-worktrees, finishing-a-development-branch |
 | 🔗 統合＆自動化 | 3 | notebooklm, x-article-publisher |
+| 🔺 Vercel 公式 | 3 | vercel-deploy, vercel-react-best-practices |
 
 ---
 

@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Skills-46+-blueviolet?style=for-the-badge" alt="Skills Count" />
+<img src="https://img.shields.io/badge/Skills-49+-blueviolet?style=for-the-badge" alt="Skills Count" />
 <img src="https://img.shields.io/badge/Quality-Premium-gold?style=for-the-badge" alt="Quality" />
 <img src="https://img.shields.io/badge/Claude%20AI-Compatible-00A67E?style=for-the-badge" alt="Claude Compatible" />
 
@@ -22,7 +22,7 @@ Skills are folders of instructions, scripts, and resources that AI agents load d
 
 This is the **most comprehensive curated collection** of high-quality agent skills gathered from across the internet, including:
 
-- ✅ **46+ Premium Skills** covering creative, technical, and enterprise workflows
+- ✅ **49+ Premium Skills** covering creative, technical, and enterprise workflows
 - ✅ **Production-Ready** - These skills power real applications
 - ✅ **Well-Documented** - Each skill includes detailed instructions and examples
 - ✅ **Organized by Category** - Easy to find what you need
@@ -126,6 +126,14 @@ This is the **most comprehensive curated collection** of high-quality agent skil
 | **[notebooklm](./notebooklm/)** | Query Google NotebookLM for source-grounded answers via browser automation |
 | **[x-article-publisher](./x-article-publisher/)** | Publish Markdown articles to X (Twitter) Articles with proper formatting |
 | **[doc-sync-tool](./doc-sync-tool/)** | Auto-sync Agents.md, claude.md, gemini.md files across projects |
+
+### 🔺 Vercel Official
+
+| Skill | Description |
+|-------|-------------|
+| **[vercel-deploy](./vercel-deploy/)** | Deploy any project to Vercel instantly. No authentication required - returns preview URL and claimable deployment link |
+| **[vercel-react-best-practices](./vercel-react-best-practices/)** | **45 performance rules** for React/Next.js from Vercel Engineering. Covers waterfalls, bundle size, server-side, re-renders |
+| **[vercel-web-design-guidelines](./vercel-web-design-guidelines/)** | Review UI code for Web Interface Guidelines compliance. Accessibility, UX audit, design best practices |
 
 ---
 
@@ -246,6 +254,7 @@ description: When to use this skill and what it does
 | 🤖 Agent Orchestration | 4 | dispatching-parallel-agents, subagent-driven-development |
 | 🔧 Git & Workflow | 2 | using-git-worktrees, finishing-a-development-branch |
 | 🔗 Integration | 3 | notebooklm, x-article-publisher |
+| 🔺 Vercel Official | 3 | vercel-deploy, vercel-react-best-practices |
 
 ---
 
